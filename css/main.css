@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 h1 {
-  color: blue; }
+  color: gray;
+  font-family: "Roboto Mono", monospace; }
 
 .width {
   margin: 0 auto; }
