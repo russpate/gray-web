@@ -1,7 +1,12 @@
+// imports
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+// fonts
+$f-prim: 'Roboto Mono', monospace;
 
 h1{
     color: blue;
+    font-family: $f-prim;
 }
 
 
