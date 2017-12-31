@@ -1,0 +1,24 @@
+{
+  "name": "gray-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/russpate/gray-web.git"
+  },
+  "author": "Russell Pate <russ@russpate.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6"
+  },
+  "bugs": {
+    "url": "https://github.com/russpate/gray-web/issues"
+  },
+  "homepage": "https://github.com/russpate/gray-web#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": ""
+}
