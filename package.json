@@ -9,7 +9,7 @@
   "author": "Russell Pate <russ@russpate.com>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6"
+    "bootstrap": "^4.0.0-beta.3"
   },
   "bugs": {
     "url": "https://github.com/russpate/gray-web/issues"

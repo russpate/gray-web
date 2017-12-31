@@ -1,26 +1,87 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-h1 {
-  color: gray;
-  font-family: "Roboto Mono", monospace; }
+body {
+  background: #e4e4e4; }
 
-.width {
+h1,
+.h1 {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px; }
+
+h2,
+.h2 {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px; }
+
+h3,
+.h3 {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px; }
+
+h4,
+.h4 {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px; }
+
+h5,
+.h5 {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px; }
+
+h6,
+.h6 {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.width--30 {
+  width: 30%; }
+
+.width--40 {
+  width: 40%; }
+
+.width--50 {
+  width: 50%; }
+
+.width--60 {
+  width: 60%; }
+
+.width--70 {
+  width: 70%; }
+
+.width--80 {
+  width: 80%; }
+
+.width--90 {
+  width: 90%; }
+
+.width--100 {
+  width: 100%; }
+
+.margin--center {
   margin: 0 auto; }
-  .width--30 {
-    width: 30%; }
-  .width--40 {
-    width: 40%; }
-  .width--50 {
-    width: 50%; }
-  .width--60 {
-    width: 60%; }
-  .width--70 {
-    width: 70%; }
-  .width--80 {
-    width: 80%; }
-  .width--90 {
-    width: 90%; }
-  .width--100 {
-    width: 100%; }
+
+.margin--top--10 {
+  margin-top: 10px; }
+
+.margin--top--20 {
+  margin-top: 20px; }
+
+.margin--top--30 {
+  margin-top: 30px; }
+
+.margin--top--40 {
+  margin-top: 40px; }
+
+.margin--top--50 {
+  margin-top: 50px; }
 
 .flex {
   display: -webkit-box;

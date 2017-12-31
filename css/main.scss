@@ -1,18 +1,52 @@
-// imports
+// Imports
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
-// fonts
+// Fonts
 $f-prim: 'Roboto Mono', monospace;
 
-h1{
-    color: gray;
+// Typography
+h1,
+.h1 {
+    color: black;
     font-family: $f-prim;
+    font-size: 24px;
+}
+h2,
+.h2 {
+    color: black;
+    font-family: $f-prim;
+    font-size: 20px;
+}
+h3,
+.h3 {
+    color: black;
+    font-family: $f-prim;
+    font-size: 18px;
+}
+h4,
+.h4 {
+    color: black;
+    font-family: $f-prim;
+    font-size: 16px;
+}
+h5,
+.h5 {
+    color: black;
+    font-family: $f-prim;
+    font-size: 14px;
+}
+h6,
+.h6 {
+    color: black;
+    font-family: $f-prim;
+    font-size: 12px;
+}
+.uppercase {
+    text-transform: uppercase;
 }
 
 // Structure
-
-.width{
-    margin: 0 auto;
+.width {
     &--30{
         width: 30%;
     }
@@ -38,7 +72,28 @@ h1{
         width: 100%;
     }
 }
-
+.margin{
+    &--center{
+        margin:0 auto;
+    }
+    &--top{
+        &--10{
+            margin-top: 10px;
+        }
+        &--20{
+            margin-top: 20px;
+        }
+        &--30{
+            margin-top: 30px;
+        }
+        &--40{
+            margin-top: 40px;
+        }
+        &--50{
+            margin-top: 50px;
+        }
+    }
+}
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -63,4 +118,9 @@ h1{
      -webkit-justify-content: center;
      justify-content: center;
   }
+}
+
+// Page
+body {
+    background: #e4e4e4;
 }
