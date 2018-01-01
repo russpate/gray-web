@@ -47,11 +47,8 @@ body {
     padding: 0;
 }
 
-a:hover {
-    text-decoration: none;
-}
 
-a {
+.share {
     transition: all 0.15s ease;
     border: 0px solid transparent;
     position: relative;
@@ -71,6 +68,7 @@ a {
     }
     &:hover {
       color: black;
+      text-decoration: none;
       &:after {
         height: 2px;
         visibility: visible;
