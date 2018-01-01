@@ -47,12 +47,12 @@ body {
   margin: 3rem 0;
   padding: 0; }
 
-.share {
+.read {
   transition: all 0.15s ease;
   border: 0px solid transparent;
   position: relative;
   text-decoration: none; }
-  .share:after {
+  .read:after {
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -64,10 +64,10 @@ body {
     transition: all 0.25s ease;
     -webkit-transform: scaleX(0);
     transform: scaleX(0); }
-  .share:hover {
+  .read:hover {
     color: black;
     text-decoration: none; }
-    .share:hover:after {
+    .read:hover:after {
       height: 2px;
       visibility: visible;
       -webkit-transform: scaleX(1);
