@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-body {
-  background: #e4e4e4; }
-
 h1,
 .h1 {
   color: black;
   font-family: "Roboto Mono", monospace;
-  font-size: 24px; }
+  font-size: 36px; }
 
 h2,
 .h2 {
@@ -20,87 +17,19 @@ h3,
   font-family: "Roboto Mono", monospace;
   font-size: 18px; }
 
-h4,
-.h4 {
-  color: black;
-  font-family: "Roboto Mono", monospace;
-  font-size: 16px; }
+body {
+  background: #e4e4e4; }
 
-h5,
-.h5 {
-  color: black;
-  font-family: "Roboto Mono", monospace;
-  font-size: 14px; }
-
-h6,
-.h6 {
-  color: black;
-  font-family: "Roboto Mono", monospace;
-  font-size: 12px; }
-
-.uppercase {
-  text-transform: uppercase; }
-
-.width--30 {
-  width: 30%; }
-
-.width--40 {
-  width: 40%; }
-
-.width--50 {
-  width: 50%; }
-
-.width--60 {
-  width: 60%; }
-
-.width--70 {
-  width: 70%; }
-
-.width--80 {
-  width: 80%; }
-
-.width--90 {
-  width: 90%; }
-
-.width--100 {
-  width: 100%; }
-
-.margin--center {
-  margin: 0 auto; }
-
-.margin--top--10 {
-  margin-top: 10px; }
-
-.margin--top--20 {
-  margin-top: 20px; }
-
-.margin--top--30 {
-  margin-top: 30px; }
-
-.margin--top--40 {
-  margin-top: 40px; }
-
-.margin--top--50 {
-  margin-top: 50px; }
-
-.flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; }
-  .flex-wrap {
-    -ms-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap; }
-  .flex-center {
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center; }
+.twitter-share-button {
+  background: gray;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.255);
+  transition: .2s all; }
+  .twitter-share-button:hover {
+    text-decoration: none;
+    color: white;
+    background: #4c4c4c;
+    box-shadow: none; }
