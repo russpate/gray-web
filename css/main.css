@@ -1,35 +1,75 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 h1,
 .h1 {
-  color: black;
-  font-family: "Roboto Mono", monospace;
-  font-size: 36px; }
+  color: #4a4a4a;
+  font-family: "Roboto", monospace;
+  font-size: 52px; }
 
 h2,
 .h2 {
-  color: black;
-  font-family: "Roboto Mono", monospace;
-  font-size: 20px; }
+  color: #4a4a4a;
+  font-family: "Roboto", monospace;
+  font-size: 56px;
+  line-height: 1.5; }
 
 h3,
 .h3 {
-  color: black;
-  font-family: "Roboto Mono", monospace;
+  color: #adadad;
+  font-family: "Roboto", monospace;
   font-size: 18px; }
 
+p,
+.p {
+  color: #adadad;
+  font-family: "Roboto", monospace;
+  font-size: 1rem; }
+
+a,
+.a {
+  color: #4a4a4a;
+  transition: .2s all; }
+
 body {
-  background: #e4e4e4; }
+  background: #f3f3f3; }
+
+.info {
+  margin: 3rem 0;
+  padding: 0; }
+
+a:hover {
+  text-decoration: none; }
 
 .twitter-share-button {
-  background: gray;
-  color: white;
+  background: #e4e4e4;
+  color: #757575;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 2px;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.255);
   transition: .2s all; }
   .twitter-share-button:hover {
     text-decoration: none;
-    color: white;
-    background: #4c4c4c;
-    box-shadow: none; }
+    color: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.255);
+    background: #4c4c4c; }
+
+textarea.commitment {
+  border: none;
+  background: none;
+  width: 100%;
+  color: black;
+  transition: .2s all;
+  resize: none;
+  height: 70px; }
+  textarea.commitment:focus {
+    border: none;
+    background: white;
+    outline: none;
+    padding: 5px;
+    margin: 5px 0; }
+  @media (max-width: 480px) {
+    textarea.commitment {
+      height: 170px; } }
+  @media (max-width: 320px) {
+    textarea.commitment {
+      height: 250px; } }
