@@ -59,8 +59,7 @@ body {
     padding: 0;
 }
 
-
-.read {
+.a {
     transition: all 0.15s ease;
     border: 0px solid transparent;
     position: relative;
@@ -130,5 +129,11 @@ textarea.commitment {
     @media (min-width: 320px) and (max-width: 479px) {
         height: 120px;
         margin: 15px 0;
+    }
+}
+
+.thanks {
+    p{
+        font-size: 12px;   
     }
 }
