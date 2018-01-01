@@ -11,6 +11,10 @@ h2,
   color: #4a4a4a;
   font-family: "Roboto", monospace;
   font-size: 56px; }
+  @media (min-width: 320px) and (max-width: 600px) {
+    h2,
+    .h2 {
+      font-size: 44px; } }
 
 h3,
 .h3 {
@@ -101,4 +105,5 @@ textarea.commitment {
       height: 170px; } }
   @media (min-width: 320px) and (max-width: 479px) {
     textarea.commitment {
-      height: 250px; } }
+      height: 120px;
+      margin: 15px 0; } }

@@ -17,6 +17,9 @@ h2,
     color: #4a4a4a;
     font-family: $f-prim;
     font-size: 56px;
+    @media (min-width: 320px) and (max-width: 600px) {
+        font-size: 44px;
+    }
 }
 h3,
 .h3 {
@@ -125,6 +128,7 @@ textarea.commitment {
         height: 170px;
     }
     @media (min-width: 320px) and (max-width: 479px) {
-        height: 250px;
+        height: 120px;
+        margin: 15px 0;
     }
 }
