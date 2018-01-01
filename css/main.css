@@ -40,6 +40,31 @@ body {
 a:hover {
   text-decoration: none; }
 
+a {
+  transition: all 0.15s ease;
+  border: 0px solid transparent;
+  position: relative;
+  text-decoration: none; }
+  a:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    visibility: hidden;
+    background: black;
+    content: "";
+    transition: all 0.25s ease;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0); }
+  a:hover {
+    color: black; }
+    a:hover:after {
+      height: 2px;
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
+
 .twitter-share-button {
   background: #e4e4e4;
   color: #757575;
@@ -67,9 +92,9 @@ textarea.commitment {
     outline: none;
     padding: 5px;
     margin: 5px 0; }
-  @media (max-width: 480px) {
+  @media (min-width: 480px) and (max-width: 600px) {
     textarea.commitment {
       height: 170px; } }
-  @media (min-width: 320px) {
+  @media (min-width: 320px) and (max-width: 479px) {
     textarea.commitment {
       height: 250px; } }
