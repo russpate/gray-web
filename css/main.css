@@ -70,6 +70,6 @@ textarea.commitment {
   @media (max-width: 480px) {
     textarea.commitment {
       height: 170px; } }
-  @media (max-width: 320px) {
+  @media (min-width: 320px) {
     textarea.commitment {
       height: 250px; } }

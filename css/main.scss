@@ -84,7 +84,7 @@ textarea.commitment {
     @media (max-width: 480px) {
         height: 170px;
     }
-    @media (max-width: 320px) {
+    @media (min-width: 320px) {
         height: 250px;
     }
 }
