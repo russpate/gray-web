@@ -10,8 +10,7 @@ h2,
 .h2 {
   color: #4a4a4a;
   font-family: "Roboto", monospace;
-  font-size: 56px;
-  line-height: 1.5; }
+  font-size: 56px; }
 
 h3,
 .h3 {
@@ -32,6 +31,13 @@ a,
 
 body {
   background: #f3f3f3; }
+
+.commit-wrap {
+  margin: 20px 0; }
+  .commit-wrap h2 {
+    margin: 20px 0; }
+  .commit-wrap a {
+    margin: 20px 0; }
 
 .info {
   margin: 3rem 0;
@@ -88,8 +94,8 @@ textarea.commitment {
     border: none;
     background: white;
     outline: none;
-    padding: 5px;
-    margin: 5px 0; }
+    padding-left: 10px;
+    font-family: 'roboto'; }
   @media (min-width: 480px) and (max-width: 600px) {
     textarea.commitment {
       height: 170px; } }
